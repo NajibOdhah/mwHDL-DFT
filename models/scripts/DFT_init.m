@@ -22,9 +22,12 @@ sbitsPhaseIncrement  = 0;    % signé
 DTPhaseIncrement    = numerictype(sbitsPhaseIncrement, nbitsPhaseIncrement, fbitsPhaseIncrement);
 
 %% Paramètres du code
-nFilters   = 201;
+nFilters   = 201; 
+    DTnFilters = numerictype(0, ceil(log2(nFilters+1)), 0); % Ajout PNO
 nDistances = 45;
 nRecurrencesMax = 1000;
+offsetsExposant= (0:oversamplingFactor:(nFilters - 1)/2); % Ajout PNO
+sizeRAMs = oversamplingFactor; % Ajout PNO
 
 %% Genération des signaux de test
 nRecurrences   = 400;
