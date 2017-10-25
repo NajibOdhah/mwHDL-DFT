@@ -6,7 +6,7 @@
     <P Name="CreatedBy">pnowodzi</P>
     <P Name="CreatedOn">Wed Oct 25 12:35:49 2017</P>
     <P Name="ModifiedBy">pnowodzi</P>
-    <P Name="LastSaved">Wed Oct 25 15:47:53 2017</P>
+    <P Name="LastSaved">Wed Oct 25 17:46:30 2017</P>
     <P Name="Owner">245</P>
     <P Name="OwnerType">SS_HARNESS</P>
     <P Name="OwnerPath">HDL_DUT/computeFourierSubset/computeBaseFourierSubset</P>
@@ -35,5 +35,41 @@
     <P Name="PostRebuildCB"/>
     <P Name="BlockSIDs">12|38|0|0|0|76|0</P>
     <P Name="OpenGraphs">||Harness_computeBaseFourierSubset||Harness_computeBaseFourierSubset/computeBaseFourierSubset</P>
+  </Harness>
+  <Harness>
+    <P Name="Name">Harness_updateFourierSubset</P>
+    <P Name="Description"/>
+    <P Name="CreatedBy">pnowodzi</P>
+    <P Name="CreatedOn">Wed Oct 25 18:00:26 2017</P>
+    <P Name="ModifiedBy">pnowodzi</P>
+    <P Name="LastSaved">Wed Oct 25 18:10:10 2017</P>
+    <P Name="Owner">298</P>
+    <P Name="OwnerType">SS_HARNESS</P>
+    <P Name="OwnerPath">HDL_DUT/computeFourierSubset/updateFourierSubset</P>
+    <P Name="LockMode">off</P>
+    <P Name="Directory"/>
+    <P Name="FileName">Harness_updateFourierSubset.slx</P>
+    <P Name="SavedVersion">9.0</P>
+    <P Name="HarnessUUID">329206e3-4c96-4dff-b919-c88fbc7d81e5</P>
+    <P Name="HarnessConnectionsMap">0,1,2,3,4|0|0,0,0,0||</P>
+    <P Name="VerificationMode">0</P>
+    <P Name="HarnessOwnerCheckSum">0,0,0,0</P>
+    <P Name="SourceType">1</P>
+    <P Name="SinkType">1</P>
+    <P Name="CustomSourcePath"/>
+    <P Name="CustomSinkPath"/>
+    <P Name="RebuildOnOpen">false</P>
+    <P Name="RebuildModelData">false</P>
+    <P Name="Graphical">false</P>
+    <P Name="DriveFcnCallWithTS">true</P>
+    <P Name="OwnerBDName">DFT</P>
+    <P Name="ScheduleInitTermReset">false</P>
+    <P Name="AutoShapeInputs">false</P>
+    <P Name="SLDVCompatible">no</P>
+    <P Name="SynchronizationMode">0</P>
+    <P Name="IsImported">false</P>
+    <P Name="PostRebuildCB"/>
+    <P Name="BlockSIDs">8|40|0|0|0|48|0</P>
+    <P Name="OpenGraphs"/>
   </Harness>
 </HarnessInformation>
